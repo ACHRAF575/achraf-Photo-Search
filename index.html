@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Achraf Photo Search</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Achraf Photo Search</h1>
+        <form id="searchForm">
+            <input type="text" id="searchQuery" placeholder="Search for photos...">
+            <button type="submit">Search</button>
+        </form>
+        <div id="results" class="results"></div>
+        <button id="show-more-btn">Show More</button>
+    </div>
+
+    
+    <div id="photoModal" class="modal">
+        <div class="modal-content">
+            <span id="closeModal" class="close">&times;</span>
+            <img id="modalImage" src="" alt="">
+            <a id="downloadButton" href="#" download>Download</a>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
